@@ -1,0 +1,6 @@
+Have libsodium downloaded and extracted and copy the libsodium-26.dll file from lisodium file to the location of project.
+
+include sodium.h header file in program.
+
+execute the code with: 
+gcc FILE_NAME.c -o OUTPUT_NAME.exe -IC:\"PATH"\libsodium\include -LC:\"PATH"\libsodium\lib -lsodium
